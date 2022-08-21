@@ -2,7 +2,7 @@
   list-style-type: none;
 }
 
-.logo {
+.logo-web {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -11,6 +11,28 @@
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #2196f3;
+}
+
+.logo-studio {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #000000;
+}
+
+.logo-studio-white {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .web-bookmarks {
