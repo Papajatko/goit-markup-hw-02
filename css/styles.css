@@ -10,7 +10,7 @@
   line-height: 1.9;
   letter-spacing: 0.03em;
   text-decoration: none;
-  color: #2196f3;
+  color: var(--blue-logo);
 }
 
 .logo-studio {
@@ -32,7 +32,7 @@
   line-height: 1.9;
   letter-spacing: 0.03em;
   text-decoration: none;
-  color: #ffffff;
+  color: var(--white);
 }
 
 .web-bookmarks {
@@ -43,7 +43,7 @@
   line-height: 1.1;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: #212121;
+  color: var(--main-color-black);
 }
 
 .mail-phone {
@@ -54,11 +54,18 @@
   line-height: 1.1;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: #757575;
+  color: var(--grey);
+}
+
+:root {
+  --main-color-black: #212121;
+  --blue-logo: #2196f3;
+  --grey: #757575;
+  --white: #ffffff;
 }
 .body {
   font-family: 'Roboto', 'Verdana', 'Tahoma', sans-serif;
-  color: #212121;
+  color: var(--main-color-black);
 }
 
 .button {
@@ -68,7 +75,7 @@
   line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
-  color: inherit;
+  color: var(--main-color-black);
   background: #f5f4fa;
   border-radius: 4px;
   border-width: 0;
@@ -76,18 +83,18 @@
 }
 .web-bookmarks:hover,
 .web-bookmarks:focus {
-  color: #2196f3;
+  color: var(--blue-logo);
 }
 
 .mail-phone:hover,
 .mail-phone:focus {
-  color: #2196f3;
+  color: var(--blue-logo);
 }
 
 .button:hover,
 .button:focus {
-  color: #ffffff;
-  background: #2196f3;
+  color: var(--white);
+  background: var(--blue-logo);
   cursor: pointer;
 }
 
@@ -97,14 +104,14 @@
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: inherit;
+  color: var(--main-color-black);
 }
 .picture-subtitle {
   font-family: inherit;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--grey);
 }
 
 .background {
@@ -118,7 +125,7 @@
   letter-spacing: 0.03em;
 }
 .white {
-  color: #ffffff;
+  color: var(--white);
 }
 
 .grey {
@@ -135,7 +142,7 @@
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--white);
 }
 .main-button {
   font-family: inherit;
@@ -144,14 +151,13 @@
   line-height: 1.9;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
-  background: #2196f3;
+  color: var(--white);
+  background: var(--blue-logo);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border-width: 0;
   padding: 10px 41px;
 }
-
 .main-button:hover,
 .main-button:focus {
   cursor: pointer;
@@ -163,14 +169,14 @@
   line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: inherit;
+  color: var(--main-color-black);
 }
 .smaller-lorem {
   font-family: inherit;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--grey);
 }
 .h-two {
   font-family: inherit;
@@ -179,7 +185,7 @@
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
-  color: inherit;
+  color: var(--main-color-black);
 }
 .names {
   font-family: inherit;
@@ -187,7 +193,7 @@
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: inherit;
+  color: var(--main-color-black);
 }
 .job {
   font-family: inherit;
@@ -195,5 +201,5 @@
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--grey);
 }
